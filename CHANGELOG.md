@@ -2,6 +2,9 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.2.1 (2021-09-03)
+- typo fixed the icon name in Service Provider
+
 ## 1.2.0 (2021-08-30)
 - Synced with the latest commit [DevIcons - v2.13.0](https://github.com/devicons/devicon/releases/tag/v2.13.0)
 

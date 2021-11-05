@@ -2,6 +2,8 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.2.1...main)
+
 ## 1.2.1 (2021-09-03)
 - typo fixed the icon name in Service Provider
 

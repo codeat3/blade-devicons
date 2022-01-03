@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Codeat3\BladeDevIcons;
 
 use BladeUI\Icons\Factory;
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Container\Container;
+use Illuminate\Support\ServiceProvider;
 
 final class BladeDevIconsServiceProvider extends ServiceProvider
 {
@@ -17,7 +17,7 @@ final class BladeDevIconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-devicons', []);
 
-            $factory->add('academicons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('devicons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
     }
 

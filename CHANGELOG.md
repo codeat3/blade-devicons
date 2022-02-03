@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.3.1...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.4.1...HEAD)
+
+## [1.4.1](https://github.com/codeat3/blade-devicon/compare/1.3.1...1.4.1) - 2022-02-03
+
+## Updates
+
+- Added support for Laravel 9 by @swapnilsarwe in https://github.com/codeat3/blade-devicons/pull/5
+
+**Full Changelog**: https://github.com/codeat3/blade-devicons/compare/1.3.1...1.4.1
 
 ## [1.3.1](https://github.com/codeat3/blade-devicon/compare/1.2.1...1.3.1) - 2022-01-03
 

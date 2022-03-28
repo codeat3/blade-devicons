@@ -2,7 +2,16 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.4.1...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.5.1...HEAD)
+
+## [1.5.1](https://github.com/codeat3/blade-devicon/compare/1.4.1...1.5.1) - 2022-03-28
+
+## What's Changed
+
+- synced icons with the latest tag [v2.15.1](https://github.com/devicons/devicon/releases/tag/v2.15.1)
+- chore: update icons with the latest commit [1119b9f](https://github.com/devicons/devicon/commit/1119b9f84c0290e0f0b38982099a2bd027a48bf1) by @github-actions in https://github.com/codeat3/blade-devicons/pull/6
+
+**Full Changelog**: https://github.com/codeat3/blade-devicons/compare/1.4.1...1.5.1
 
 ## [1.4.1](https://github.com/codeat3/blade-devicon/compare/1.3.1...1.4.1) - 2022-02-03
 

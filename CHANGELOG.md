@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.5.1...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.6.1...HEAD)
+
+## [1.6.1](https://github.com/codeat3/blade-devicon/compare/1.5.1...1.6.1) - 2023-02-18
+
+### What's Changed
+
+- laravel 10 update by @swapnilsarwe in https://github.com/codeat3/blade-devicons/pull/7
+
+**Full Changelog**: https://github.com/codeat3/blade-devicons/compare/1.5.1...1.6.1
 
 ## [1.5.1](https://github.com/codeat3/blade-devicon/compare/1.4.1...1.5.1) - 2022-03-28
 

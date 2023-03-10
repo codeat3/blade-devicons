@@ -12,7 +12,7 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
             ->optimize()
             ->postOptimizationAsString(function ($svgLine){
                 $replacePattern = [
-                    '/fill\="\#[0-9A-Z]{6}"/s' => 'fill="currentColor"'
+                    '/fill\="\#[0-9A-Za-z]{6}"/s' => 'fill="currentColor"'
                 ];
                 return preg_replace(array_keys($replacePattern), array_values($replacePattern), $svgLine);
             })

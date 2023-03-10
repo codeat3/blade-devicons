@@ -10,6 +10,12 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
         $iconProcessor = new IconProcessor($tempFilepath, $iconSet);
         $iconProcessor
             ->optimize()
+            ->postOptimizationAsString(function ($svgLine){
+                $replacePattern = [
+                    '/fill\="\#[0-9A-Z]{6}"/s' => 'fill="currentColor"'
+                ];
+                return preg_replace(array_keys($replacePattern), array_values($replacePattern), $svgLine);
+            })
             ->save(filenameCallable: function ($filename, $file) {
                 return str_replace('-plain', '', $filename);
             });

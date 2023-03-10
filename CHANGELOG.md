@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.6.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.6.3...HEAD)
+
+## [1.6.3](https://github.com/codeat3/blade-devicon/compare/1.6.2...1.6.3) - 2023-03-10
+
+### What's Changed
+
+- icon updates with correct fill attributes by @swapnilsarwe in https://github.com/codeat3/blade-devicons/pull/10
+
+**Full Changelog**: https://github.com/codeat3/blade-devicons/compare/1.6.2...1.6.3
 
 ## [1.6.2](https://github.com/codeat3/blade-devicon/compare/1.6.1...1.6.2) - 2023-03-10
 

@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.6.1...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-devicon/compare/1.6.2...HEAD)
+
+## [1.6.2](https://github.com/codeat3/blade-devicon/compare/1.6.1...1.6.2) - 2023-03-10
+
+### What's Changed
+
+- fill attribute fixed in auto generation script by @swapnilsarwe in https://github.com/codeat3/blade-devicons/pull/9
+
+**Full Changelog**: https://github.com/codeat3/blade-devicons/compare/1.6.1...1.6.2
 
 ## [1.6.1](https://github.com/codeat3/blade-devicon/compare/1.5.1...1.6.1) - 2023-02-18
 

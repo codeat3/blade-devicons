@@ -18,7 +18,7 @@ class CompilesIconsTest extends TestCase
 
         // Note: the empty class here seems to be a Blade components bug.
         $expected = <<<'SVG'
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor"><path fill="#00D1B2" d="M59.2 0l40 40-24 24 32 31.9L59.4 128l-40-39.9 7.7-56z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor"><path fill="currentColor" d="M59.2 0l40 40-24 24 32 31.9L59.4 128l-40-39.9 7.7-56z"/></svg>
             SVG;
 
 
@@ -30,7 +30,7 @@ class CompilesIconsTest extends TestCase
     {
         $result = svg('devicon-bulma', 'w-6 h-6 text-gray-500')->toHtml();
         $expected = <<<'SVG'
-            <svg class="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor"><path fill="#00D1B2" d="M59.2 0l40 40-24 24 32 31.9L59.4 128l-40-39.9 7.7-56z"/></svg>
+            <svg class="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor"><path fill="currentColor" d="M59.2 0l40 40-24 24 32 31.9L59.4 128l-40-39.9 7.7-56z"/></svg>
             SVG;
         $this->assertSame($expected, $result);
     }
@@ -42,7 +42,7 @@ class CompilesIconsTest extends TestCase
 
 
         $expected = <<<'SVG'
-            <svg style="color: #555" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor"><path fill="#00D1B2" d="M59.2 0l40 40-24 24 32 31.9L59.4 128l-40-39.9 7.7-56z"/></svg>
+            <svg style="color: #555" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor"><path fill="currentColor" d="M59.2 0l40 40-24 24 32 31.9L59.4 128l-40-39.9 7.7-56z"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
@@ -56,7 +56,7 @@ class CompilesIconsTest extends TestCase
         $result = svg('devicon-bulma')->toHtml();
 
         $expected = <<<'SVG'
-            <svg class="awesome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor"><path fill="#00D1B2" d="M59.2 0l40 40-24 24 32 31.9L59.4 128l-40-39.9 7.7-56z"/></svg>
+            <svg class="awesome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor"><path fill="currentColor" d="M59.2 0l40 40-24 24 32 31.9L59.4 128l-40-39.9 7.7-56z"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
@@ -71,7 +71,7 @@ class CompilesIconsTest extends TestCase
         $result = svg('devicon-bulma', 'w-6 h-6')->toHtml();
 
         $expected = <<<'SVG'
-            <svg class="awesome w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor"><path fill="#00D1B2" d="M59.2 0l40 40-24 24 32 31.9L59.4 128l-40-39.9 7.7-56z"/></svg>
+            <svg class="awesome w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="currentColor"><path fill="currentColor" d="M59.2 0l40 40-24 24 32 31.9L59.4 128l-40-39.9 7.7-56z"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
